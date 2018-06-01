@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad7b12f-200f-418f-a6f7-1e0d575601d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ParkingBoy.java" afterPath="$PROJECT_DIR$/src/main/java/ParkingBoy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ParkingLot.java" afterPath="$PROJECT_DIR$/src/main/java/ParkingLot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ParkingLotSystem.java" afterPath="$PROJECT_DIR$/src/main/java/ParkingLotSystem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java" afterPath="$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingBoy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ParkingBoy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParkingManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="119">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -148,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/NormalParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/SmartParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ParkingManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java" />
       </list>
     </option>
   </component>
@@ -260,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingLotSystemTest.parkCar_Super_NotFull_Test">
+  <component name="RunManager" selected="JUnit.ParkingLotSystemTest.parkCar_Normal_pklNotExist_Test">
     <configuration name="ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceButFullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ParkingLotSystem" />
@@ -301,14 +298,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ParkingLotSystemTest.parkCarWithExistPklNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingLotSystemTest.parkCar_Normal_pklNotExist_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ParkingLotSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParkingLotSystemTest" />
-      <option name="METHOD_NAME" value="parkCarWithExistPklNumTest" />
+      <option name="METHOD_NAME" value="parkCar_Normal_pklNotExist_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -442,19 +439,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarWithExistPklNumTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceButFullTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.pickCarTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCar_Super_NotFull_Test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceButFullTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.pickCarTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCar_Super_NotFull_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCar_Normal_pklNotExist_Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCar_Super_NotFull_Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.pickCarTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceButFullTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarWithExistPklNumTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCar_Normal_pklNotExist_Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCar_Super_NotFull_Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.pickCarTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceButFullTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -475,8 +472,8 @@
     <history-entry file="ParkingLotSystemTest_parkCarInPklWithMostAvailableSpaceButFullTest - 2018.06.01 at 11h 49m 10s.xml">
       <configuration name="ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceButFullTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotSystemTest_parkCarInPklWithMostAvailableSpaceTest - 2018.06.01 at 11h 49m 05s.xml">
-      <configuration name="ParkingLotSystemTest.parkCarInPklWithMostAvailableSpaceTest" configurationId="JUnit" />
+    <history-entry file="ParkingLotSystemTest_parkCar_Normal_pklNotExist_Test - 2018.06.01 at 15h 35m 40s.xml">
+      <configuration name="ParkingLotSystemTest.parkCar_Normal_pklNotExist_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ParkingLotSystemTest_parkCar_Super_NotFull_Test - 2018.06.01 at 14h 50m 53s.xml">
       <configuration name="ParkingLotSystemTest.parkCar_Super_NotFull_Test" configurationId="JUnit" />
@@ -516,7 +513,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18042071" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -577,17 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NormalParkingBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -596,24 +582,6 @@
             <element signature="e#997#998#0" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,10 +596,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NormalParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParkingLotSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParkingManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>

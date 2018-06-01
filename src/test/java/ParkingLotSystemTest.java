@@ -15,16 +15,6 @@ public class ParkingLotSystemTest {
     }
 
     @Test
-    public void parkCar_Normal_pklNotExist_Test(){
-        ParkingBoy parkingBoy=new NormalParkingBoy();
-        String carnum="CAR1";
-        int pklnum=4;
-        ParkingLotSystem pklSystem=new ParkingLotSystem();
-        String result=parkingBoy.parkCar(pklSystem,carnum);
-        Assert.assertEquals("Failed. ParkingLot not exists.",result);
-    }
-
-    @Test
     public void parkCar_Smart_NotFull_Test(){
         ParkingBoy parkingBoy=new SmartParkingBoy();
         ArrayList<ParkingLot> pkls=new ArrayList<ParkingLot>();
