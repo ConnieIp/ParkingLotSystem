@@ -104,7 +104,12 @@ public class ParkingLotSystemTest {
 
     @Test
     public void parkCar_Manager_NotFull_Test(){
-
+        ParkingManager parkingManager=new ParkingManager();
+        String carnum="CAR1";
+        int pklnum=1;
+        ParkingLotSystem pklSystem=new ParkingLotSystem();
+        String result=parkingManager.parkCar(pklSystem,carnum);
+        Assert.assertEquals("Success. Car parked in ParkingLot"+pklnum,result);
     }
 
     @Test
