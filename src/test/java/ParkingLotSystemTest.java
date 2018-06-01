@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class ParkingLotSystemTest {
     @Test
     public void parkCar_Normal_pklExist_Test(){
-        ParkingBoy parkingBoy=new NormalParkingBoy();
+        ParkingBoy parkingBoy=new NormalParkingBoy(1);
         String carnum="CAR1";
         int pklnum=1;
         ParkingLotSystem pklSystem=new ParkingLotSystem();
@@ -16,7 +16,7 @@ public class ParkingLotSystemTest {
 
     @Test
     public void parkCar_Smart_NotFull_Test(){
-        ParkingBoy parkingBoy=new SmartParkingBoy();
+        ParkingBoy parkingBoy=new SmartParkingBoy(1);
         ArrayList<ParkingLot> pkls=new ArrayList<ParkingLot>();
         ArrayList<Car> cars1=new ArrayList<Car>();
         ParkingLot pkl1=new ParkingLot(1,5,5,cars1);
@@ -43,7 +43,7 @@ public class ParkingLotSystemTest {
 
     @Test
     public void parkCar_Smart_Full_Test(){
-        ParkingBoy parkingBoy=new SmartParkingBoy();
+        ParkingBoy parkingBoy=new SmartParkingBoy(1);
         ArrayList<ParkingLot> pkls=new ArrayList<ParkingLot>();
         ArrayList<Car> cars1=new ArrayList<Car>();
         cars1.add(new Car("CAR1"));
@@ -77,7 +77,7 @@ public class ParkingLotSystemTest {
 
     @Test
     public void parkCar_Super_NotFull_Test(){
-        ParkingBoy parkingBoy=new SuperParkingBoy();
+        ParkingBoy parkingBoy=new SuperParkingBoy(1);
         ArrayList<ParkingLot> pkls=new ArrayList<ParkingLot>();
         ArrayList<Car> cars1=new ArrayList<Car>();
         ParkingLot pkl1=new ParkingLot(1,2,1,cars1);
@@ -103,8 +103,13 @@ public class ParkingLotSystemTest {
     }
 
     @Test
+    public void parkCar_Manager_NotFull_Test(){
+
+    }
+
+    @Test
     public void pickCarTest(){
-        ParkingBoy parkingBoy=new NormalParkingBoy();
+        ParkingBoy parkingBoy=new NormalParkingBoy(1);
         int pklNum=1;
         String carNum="CAR1";
         ParkingLotSystem parkingLotSystem=new ParkingLotSystem();

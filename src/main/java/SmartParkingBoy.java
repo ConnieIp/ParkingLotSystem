@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class SmartParkingBoy extends ParkingBoy{
-    public SmartParkingBoy() {
-        super();
+    public SmartParkingBoy(int id) {
+        super(id);
     }
 
     @Override
@@ -11,7 +11,9 @@ public class SmartParkingBoy extends ParkingBoy{
         if(pkl==null) {
             return "Failed. ParkingLot are full.";
         }else {
-            pkl.addAcarInParkingLot(new Car(carNum));
+            Car car=new Car(carNum);
+            pkl.addAcarInParkingLot(car);
+            parkedCar.add(car);
             return "Success. Car parked in ParkingLot"+pkl.getParkingLotNum();
         }
     }

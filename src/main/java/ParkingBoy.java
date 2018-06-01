@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 
 public abstract class ParkingBoy {
-    public ParkingBoy() {
+
+    public int parkingboyId;
+    public ArrayList<Car> parkedCar;
+
+    public ParkingBoy(int id) {
+        parkingboyId=id;
+        parkedCar=new ArrayList<Car>();
     }
 
     protected abstract String parkCar(ParkingLotSystem parkingLotSystem,String carNum);
