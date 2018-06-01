@@ -9,7 +9,7 @@ public class ParkingLot {
     public ParkingLot(int parkingLotNum) {
         this.parkingLotNum = parkingLotNum;
         this.totalParkingSpace = 20;
-        this.availableParkingSpace = 0;
+        this.availableParkingSpace = 20;
         this.cars=new ArrayList<Car>();
     }
 
@@ -36,5 +36,15 @@ public class ParkingLot {
 
     public void addAcarInParkingLot(Car car){
         cars.add(car);
+    }
+
+    public boolean getAcarInParkingLot(String carNum){
+        for(Car c:cars){
+            if(c.getCarNum().equals(carNum)){
+                cars.remove(c);
+                return true;
+            }
+        }
+        return false;
     }
 }

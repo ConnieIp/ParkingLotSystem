@@ -5,5 +5,7 @@ public class Car {
         this.carNum = carNum;
     }
 
-
+    public String getCarNum() {
+        return carNum;
+    }
 }

@@ -17,30 +17,6 @@ public class ParkingLotSystem {
         this.pkls=pkls;
     }
 
-    public String parkCarWithPklNum(int pklNum, String carNum){
-        for(ParkingLot pkl:pkls){
-            if(pkl.getParkingLotNum()==pklNum){
-                pkl.addAcarInParkingLot(new Car(carNum));
-                return "Success. Car parked in ParkingLot"+pklNum;
-            }
-        }
-        return "Failed. ParkingLot not exists.";
-    }
-
-    public void parkCarInPklWithMostAvailableSpace(String carNum){
-
-
-    }
-
-    public ParkingLot getMostAvaliableParkingLot(){
-        int mostAvailable=0;
-        for(ParkingLot pkl:pkls){
-            if(pkl.getAvailableParkingSpace()>mostAvailable){
-                mostAvailable=pkl.getAvailableParkingSpace();
-            }
-        }
-        return null;
-    }
 
 
 }
