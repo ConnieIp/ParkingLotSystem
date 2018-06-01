@@ -33,6 +33,9 @@ public class ParkingLot {
         return availableParkingSpace;
     }
 
+    public double getAvailableParkingSpaceRate() {
+        return ((double)availableParkingSpace/totalParkingSpace);
+    }
 
     public void addAcarInParkingLot(Car car){
         cars.add(car);

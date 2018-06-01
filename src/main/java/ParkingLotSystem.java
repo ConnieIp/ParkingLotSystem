@@ -17,6 +17,7 @@ public class ParkingLotSystem {
         this.pkls=pkls;
     }
 
-
-
+    public ArrayList<ParkingLot> getPkls() {
+        return pkls;
+    }
 }
